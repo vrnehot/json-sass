@@ -20,7 +20,7 @@ function jsonSass(options) {
     callback();
   });
 }
-
+jsonSass.convertJs = jsToSassString
 module.exports = jsonSass;
 export default jsonSass;
 export { jsToSassString as convertJs };
